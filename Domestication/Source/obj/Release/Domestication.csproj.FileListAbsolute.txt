@@ -1,0 +1,5 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Domestication\Source\obj\Release\Domestication.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Domestication\Source\obj\Release\Domestication.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Domestication\1.5\Assemblies\Domestication.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Domestication\Source\obj\Release\Domestic.8FA797B6.Up2Date
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Domestication\Source\obj\Release\Domestication.dll

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>Cleanly</defName>
+		<label>cleanly</label>
+		<labelNoun>cleanly</labelNoun>
+		<defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+		<description>This animal has been domesticated to the point of cleanliness and can be brought inside without concern.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<makesAlert>false</makesAlert>
+		<isBad>false</isBad>
+		<!--
+		<stages>
+			<li>
+				<statOffsets>
+				<FilthRate>2</FilthRate>
+				</statOffsets>
+			</li>
+		</stages>
+		-->
+	</HediffDef>
+</Defs>
