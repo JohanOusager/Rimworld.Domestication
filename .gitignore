@@ -361,3 +361,32 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/1.5/Assemblies/0Harmony.dll
+/1.5/Assemblies/Assembly-CSharp-firstpass.dll
+/1.5/Assemblies/Assembly-CSharp.dll
+/1.5/Assemblies/com.rlabrecque.steamworks.net.dll
+/1.5/Assemblies/ISharpZipLib.dll
+/1.5/Assemblies/Mono.Posix.dll
+/1.5/Assemblies/Mono.Security.dll
+/1.5/Assemblies/NAudio.dll
+/1.5/Assemblies/NVorbis.dll
+/1.5/Assemblies/Unity.Burst.dll
+/1.5/Assemblies/Unity.Burst.Unsafe.dll
+/1.5/Assemblies/Unity.Mathematics.dll
+/1.5/Assemblies/Unity.TextMeshPro.dll
+/1.5/Assemblies/UnityEngine.AnimationModule.dll
+/1.5/Assemblies/UnityEngine.AssetBundleModule.dll
+/1.5/Assemblies/UnityEngine.AudioModule.dll
+/1.5/Assemblies/UnityEngine.CoreModule.dll
+/1.5/Assemblies/UnityEngine.ImageConversionModule.dll
+/1.5/Assemblies/UnityEngine.IMGUIModule.dll
+/1.5/Assemblies/UnityEngine.InputLegacyModule.dll
+/1.5/Assemblies/UnityEngine.PerformanceReportingModule.dll
+/1.5/Assemblies/UnityEngine.Physics2DModule.dll
+/1.5/Assemblies/UnityEngine.PhysicsModule.dll
+/1.5/Assemblies/UnityEngine.ScreenCaptureModule.dll
+/1.5/Assemblies/UnityEngine.SharedInternalsModule.dll
+/1.5/Assemblies/UnityEngine.TextCoreModule.dll
+/1.5/Assemblies/UnityEngine.TextRenderingModule.dll
+/1.5/Assemblies/UnityEngine.UI.dll
+/1.5/Assemblies/UnityEngine.UIModule.dll
