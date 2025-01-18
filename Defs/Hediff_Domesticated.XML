@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>Domesticated</defName>
+		<hediffClass>Hediff_Domesticated</hediffClass>
+		<label>domesticated</label>
+		<labelNoun>domesticated</labelNoun>
+		<defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+		<description>This animal has been domesticated. Training it will be easier and it will stick to its new habits for longer.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<makesAlert>false</makesAlert>
+		<isBad>false</isBad>
+		<comps>      
+		<li>
+        <compClass>HediffComp_WildnessOffset</compClass>
+		</li>
+		</comps>
+	</HediffDef>
+</Defs>

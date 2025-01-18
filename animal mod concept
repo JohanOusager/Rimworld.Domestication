@@ -1,0 +1,32 @@
+animal mod
+	make wildnessUtility static class with GetWildness(pawn) method
+
+	replace all occurences of Pawn.RaceProps.wildness with WildnessUtility.GetWildness(Pawn)
+		IncidentWorker_SelfTame private IEnumerable<Pawn> Candidates(Map map) -> very minor as its about taming
+		InteractionWorker_RecruitAttempt public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks, out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets) -> very minor as its about taming 
+										 public static void DoRecruit(Pawn recruiter, Pawn recruitee, out string letterLabel, out string letter, bool useAudiovisualEffects = true, bool sendLetter = true) -> very minor as its about taming
+		TameUtility public static bool CanTame(Pawn pawn) -> very minor as its about taming
+		
+		Toils_Interpersonal public static Toil TryTrain(TargetIndex traineeInd) -> replace with patch to use GetWildness (done as patch)
+		
+		TrainableUtility public static int DegradationPeriodTicks(ThingDef def) -> i made a version for taking pawn instead (done in utility class)
+		
+			Pawn_TrainingTracker public void TrainingTrackerTickRare() -> replace with harmony patch to feed in pawn instead of pawn def (done as patch)
+			
+			TrainableUtility public static string GetWildnessExplanation(ThingDef def) -> i made a version for taking pawn instead of def (done in utility class)
+			
+				TrainingCardUtility public static void DrawTrainingCard(Rect rect, Pawn pawn) -> replace with patch to feed in pawn instead of pawn.def  (done as patch)
+				
+				~~RaceProperties public IEnumerable<StatDrawEntry> SpecialDisplayStats(ThingDef parentDef, StatRequest req) -> replace with version to feed in -> skip this as raceProperty is not referencing the individual
+				
+				~~Pawn public override IEnumerable<StatDrawEntry> SpecialDisplayStats() -> replace with patch to feed in pawn insteadf of def -> skip this as its only for wildman
+		
+		wildcards:
+			public class StatWorker_MinimumHandlingSkill -> usage is defined by xml. Make a custom derived class (done) and patch the xml to use this instead
+			~~public float GetAnimalPointsToHuntOrSlaughter() -> used for quests and stuff doesnt matter
+			
+		other stuff that might be nice
+			autoSlaughterManager -> slaughter wilder specimens first. also slaughter youngest non adult while we are at it?
+			Hatch() -> unless we dont care about domesticating things that lay eggs
+	
+
